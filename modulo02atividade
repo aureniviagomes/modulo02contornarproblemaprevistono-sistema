@@ -1,0 +1,29 @@
+#Nome: maior que 3 caracteres;
+
+nome = str ( input ( "informe um nome--> " ))
+while ( len ( nome ) <=   3 ):
+	nome = str ( input ( "informe um nome--> " ))
+
+#Idade: entre 0 e 150;
+
+idade = int ( input ( "informe a idade--> " ))
+enquanto ( idade  >  150  ou  idade  <  0 ):
+	idade = int ( input ( "informe a idade--> " ))
+	
+	
+#Salário: maior que zero;
+salario = float ( input ( "informe um salario--> " ))
+enquanto ( salário  <  0 ):
+	salario = float ( input ( "informe um salario--> " ))
+	
+#Sexo: 'f' ou 'm';
+
+sexo = str ( input ( "informe a inicial do seu sexo--> " ))
+enquanto   sexo  != "f"  e  sexo != "m" :
+	sexo = str ( input ( "informe a inicial do seu sexo--> " ))
+	
+#Estado Civil: 's', 'c', 'v', 'd';
+
+estado_civil = str ( input ( "informe a inicial do seu estado civil-->" ))
+while ( estado_civil  !=  "s"  e  estado_civil  !=  "c"  e  estado_civil  !=  "v"  e  estado_civil  !=  "d" ):
+	estado_civil = str ( input ( "informe a inicial do seu estado civil-->" ))
